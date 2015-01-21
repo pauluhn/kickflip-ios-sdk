@@ -40,6 +40,74 @@
 		DAE1E5CF1A704E1000494EA1 /* kickflip-ios-sdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kickflip-ios-sdkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE1E5D41A704E1000494EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAE1E5D51A704E1000494EA1 /* kickflip_ios_sdkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kickflip_ios_sdkTests.m; sourceTree = "<group>"; };
+		DAE1E6841A7053E600494EA1 /* KFAPIClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAPIClient.h; sourceTree = "<group>"; };
+		DAE1E6851A7053E600494EA1 /* KFAPIClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAPIClient.m; sourceTree = "<group>"; };
+		DAE1E6861A7053E600494EA1 /* KFPaginationInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFPaginationInfo.h; sourceTree = "<group>"; };
+		DAE1E6871A7053E600494EA1 /* KFPaginationInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFPaginationInfo.m; sourceTree = "<group>"; };
+		DAE1E6881A7053E600494EA1 /* KFRTMPStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFRTMPStream.h; sourceTree = "<group>"; };
+		DAE1E6891A7053E600494EA1 /* KFRTMPStream.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFRTMPStream.m; sourceTree = "<group>"; };
+		DAE1E68A1A7053E600494EA1 /* KFS3Stream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFS3Stream.h; sourceTree = "<group>"; };
+		DAE1E68B1A7053E600494EA1 /* KFS3Stream.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFS3Stream.m; sourceTree = "<group>"; };
+		DAE1E68C1A7053E600494EA1 /* KFStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFStream.h; sourceTree = "<group>"; };
+		DAE1E68D1A7053E600494EA1 /* KFStream.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFStream.m; sourceTree = "<group>"; };
+		DAE1E68E1A7053E600494EA1 /* KFUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFUser.h; sourceTree = "<group>"; };
+		DAE1E68F1A7053E600494EA1 /* KFUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFUser.m; sourceTree = "<group>"; };
+		DAE1E6931A7053E600494EA1 /* KFAACEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAACEncoder.h; sourceTree = "<group>"; };
+		DAE1E6941A7053E600494EA1 /* KFAACEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAACEncoder.m; sourceTree = "<group>"; };
+		DAE1E6951A7053E600494EA1 /* KFAudioEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAudioEncoder.h; sourceTree = "<group>"; };
+		DAE1E6961A7053E600494EA1 /* KFAudioEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAudioEncoder.m; sourceTree = "<group>"; };
+		DAE1E6971A7053E600494EA1 /* KFEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFEncoder.h; sourceTree = "<group>"; };
+		DAE1E6981A7053E600494EA1 /* KFEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFEncoder.m; sourceTree = "<group>"; };
+		DAE1E6991A7053E600494EA1 /* KFFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFFrame.h; sourceTree = "<group>"; };
+		DAE1E69A1A7053E600494EA1 /* KFFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFFrame.m; sourceTree = "<group>"; };
+		DAE1E69D1A7053E600494EA1 /* AVEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVEncoder.h; sourceTree = "<group>"; };
+		DAE1E69E1A7053E600494EA1 /* AVEncoder.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AVEncoder.mm; sourceTree = "<group>"; };
+		DAE1E69F1A7053E600494EA1 /* KFH264Encoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFH264Encoder.h; sourceTree = "<group>"; };
+		DAE1E6A01A7053E600494EA1 /* KFH264Encoder.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = KFH264Encoder.mm; sourceTree = "<group>"; };
+		DAE1E6A11A7053E600494EA1 /* LICENSE.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.markdown; sourceTree = "<group>"; };
+		DAE1E6A21A7053E600494EA1 /* MP4Atom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MP4Atom.h; sourceTree = "<group>"; };
+		DAE1E6A31A7053E600494EA1 /* MP4Atom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MP4Atom.m; sourceTree = "<group>"; };
+		DAE1E6A41A7053E600494EA1 /* NALUnit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NALUnit.cpp; sourceTree = "<group>"; };
+		DAE1E6A51A7053E600494EA1 /* NALUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NALUnit.h; sourceTree = "<group>"; };
+		DAE1E6A61A7053E600494EA1 /* VideoEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoEncoder.h; sourceTree = "<group>"; };
+		DAE1E6A71A7053E600494EA1 /* VideoEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEncoder.m; sourceTree = "<group>"; };
+		DAE1E6A81A7053E600494EA1 /* KFVideoEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFVideoEncoder.h; sourceTree = "<group>"; };
+		DAE1E6A91A7053E600494EA1 /* KFVideoEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFVideoEncoder.m; sourceTree = "<group>"; };
+		DAE1E6AA1A7053E600494EA1 /* KFVideoFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFVideoFrame.h; sourceTree = "<group>"; };
+		DAE1E6AB1A7053E600494EA1 /* KFVideoFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFVideoFrame.m; sourceTree = "<group>"; };
+		DAE1E6AD1A7053E600494EA1 /* KFRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFRecorder.h; sourceTree = "<group>"; };
+		DAE1E6AE1A7053E600494EA1 /* KFRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFRecorder.m; sourceTree = "<group>"; };
+		DAE1E6AF1A7053E600494EA1 /* Kickflip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kickflip-Prefix.pch"; sourceTree = "<group>"; };
+		DAE1E6B01A7053E600494EA1 /* Kickflip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Kickflip.h; sourceTree = "<group>"; };
+		DAE1E6B11A7053E600494EA1 /* Kickflip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kickflip.m; sourceTree = "<group>"; };
+		DAE1E6B51A7053E600494EA1 /* KFDirectoryWatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFDirectoryWatcher.h; sourceTree = "<group>"; };
+		DAE1E6B61A7053E600494EA1 /* KFDirectoryWatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFDirectoryWatcher.m; sourceTree = "<group>"; };
+		DAE1E6B71A7053E600494EA1 /* KFHLSManifestGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFHLSManifestGenerator.h; sourceTree = "<group>"; };
+		DAE1E6B81A7053E600494EA1 /* KFHLSManifestGenerator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFHLSManifestGenerator.m; sourceTree = "<group>"; };
+		DAE1E6B91A7053E600494EA1 /* KFHLSMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFHLSMonitor.h; sourceTree = "<group>"; };
+		DAE1E6BA1A7053E600494EA1 /* KFHLSMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFHLSMonitor.m; sourceTree = "<group>"; };
+		DAE1E6BB1A7053E600494EA1 /* KFHLSUploader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFHLSUploader.h; sourceTree = "<group>"; };
+		DAE1E6BC1A7053E600494EA1 /* KFHLSUploader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFHLSUploader.m; sourceTree = "<group>"; };
+		DAE1E6BD1A7053E600494EA1 /* KFHLSWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFHLSWriter.h; sourceTree = "<group>"; };
+		DAE1E6BE1A7053E600494EA1 /* KFHLSWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFHLSWriter.m; sourceTree = "<group>"; };
+		DAE1E6C01A7053E600494EA1 /* KFCameraReverse@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KFCameraReverse@2x.png"; sourceTree = "<group>"; };
+		DAE1E6C11A7053E600494EA1 /* KFCameraReversePressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KFCameraReversePressed@2x.png"; sourceTree = "<group>"; };
+		DAE1E6C21A7053E600494EA1 /* KFDeviceRotation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KFDeviceRotation@2x.png"; sourceTree = "<group>"; };
+		DAE1E6C31A7053E600494EA1 /* KFRecordButtonBorder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KFRecordButtonBorder@2x.png"; sourceTree = "<group>"; };
+		DAE1E6C41A7053E600494EA1 /* KFRecordButtonStart@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KFRecordButtonStart@2x.png"; sourceTree = "<group>"; };
+		DAE1E6C51A7053E600494EA1 /* KFRecordButtonStop@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KFRecordButtonStop@2x.png"; sourceTree = "<group>"; };
+		DAE1E6C61A7053E600494EA1 /* KFStreamTableViewCellDots@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "KFStreamTableViewCellDots@2x.png"; sourceTree = "<group>"; };
+		DAE1E6C81A7053E600494EA1 /* KFDateUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFDateUtils.h; sourceTree = "<group>"; };
+		DAE1E6C91A7053E600494EA1 /* KFDateUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFDateUtils.m; sourceTree = "<group>"; };
+		DAE1E6CA1A7053E600494EA1 /* KFLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFLog.h; sourceTree = "<group>"; };
+		DAE1E6CC1A7053E600494EA1 /* KFBroadcastViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFBroadcastViewController.h; sourceTree = "<group>"; };
+		DAE1E6CD1A7053E600494EA1 /* KFBroadcastViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFBroadcastViewController.m; sourceTree = "<group>"; };
+		DAE1E6CE1A7053E600494EA1 /* KFLiveBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFLiveBannerView.h; sourceTree = "<group>"; };
+		DAE1E6CF1A7053E600494EA1 /* KFLiveBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFLiveBannerView.m; sourceTree = "<group>"; };
+		DAE1E6D01A7053E600494EA1 /* KFRecordButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFRecordButton.h; sourceTree = "<group>"; };
+		DAE1E6D11A7053E600494EA1 /* KFRecordButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFRecordButton.m; sourceTree = "<group>"; };
+		DAE1E6D21A7053E600494EA1 /* KFStreamTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFStreamTableViewCell.h; sourceTree = "<group>"; };
+		DAE1E6D31A7053E600494EA1 /* KFStreamTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFStreamTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +154,7 @@
 				DAE1E5C01A704E1000494EA1 /* ViewController.h */,
 				DAE1E5C11A704E1000494EA1 /* ViewController.m */,
 				DAE1E5C31A704E1000494EA1 /* Main.storyboard */,
+				DAE1E6821A7053E600494EA1 /* Kickflip */,
 				DAE1E5C61A704E1000494EA1 /* Images.xcassets */,
 				DAE1E5C81A704E1000494EA1 /* LaunchScreen.xib */,
 				DAE1E5B91A704E1000494EA1 /* Supporting Files */,
@@ -117,6 +186,186 @@
 				DAE1E5D41A704E1000494EA1 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAE1E6821A7053E600494EA1 /* Kickflip */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E6831A7053E600494EA1 /* API */,
+				DAE1E6901A7053E600494EA1 /* Codecs */,
+				DAE1E6AC1A7053E600494EA1 /* Inputs */,
+				DAE1E6AF1A7053E600494EA1 /* Kickflip-Prefix.pch */,
+				DAE1E6B01A7053E600494EA1 /* Kickflip.h */,
+				DAE1E6B11A7053E600494EA1 /* Kickflip.m */,
+				DAE1E6B21A7053E600494EA1 /* Outputs */,
+				DAE1E6BF1A7053E600494EA1 /* Resources */,
+				DAE1E6C71A7053E600494EA1 /* Utilities */,
+				DAE1E6CB1A7053E600494EA1 /* Views */,
+			);
+			name = Kickflip;
+			path = ../../Kickflip;
+			sourceTree = "<group>";
+		};
+		DAE1E6831A7053E600494EA1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E6841A7053E600494EA1 /* KFAPIClient.h */,
+				DAE1E6851A7053E600494EA1 /* KFAPIClient.m */,
+				DAE1E6861A7053E600494EA1 /* KFPaginationInfo.h */,
+				DAE1E6871A7053E600494EA1 /* KFPaginationInfo.m */,
+				DAE1E6881A7053E600494EA1 /* KFRTMPStream.h */,
+				DAE1E6891A7053E600494EA1 /* KFRTMPStream.m */,
+				DAE1E68A1A7053E600494EA1 /* KFS3Stream.h */,
+				DAE1E68B1A7053E600494EA1 /* KFS3Stream.m */,
+				DAE1E68C1A7053E600494EA1 /* KFStream.h */,
+				DAE1E68D1A7053E600494EA1 /* KFStream.m */,
+				DAE1E68E1A7053E600494EA1 /* KFUser.h */,
+				DAE1E68F1A7053E600494EA1 /* KFUser.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		DAE1E6901A7053E600494EA1 /* Codecs */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E6911A7053E600494EA1 /* Audio */,
+				DAE1E6971A7053E600494EA1 /* KFEncoder.h */,
+				DAE1E6981A7053E600494EA1 /* KFEncoder.m */,
+				DAE1E6991A7053E600494EA1 /* KFFrame.h */,
+				DAE1E69A1A7053E600494EA1 /* KFFrame.m */,
+				DAE1E69B1A7053E600494EA1 /* Video */,
+			);
+			path = Codecs;
+			sourceTree = "<group>";
+		};
+		DAE1E6911A7053E600494EA1 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E6921A7053E600494EA1 /* AAC */,
+				DAE1E6951A7053E600494EA1 /* KFAudioEncoder.h */,
+				DAE1E6961A7053E600494EA1 /* KFAudioEncoder.m */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		DAE1E6921A7053E600494EA1 /* AAC */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E6931A7053E600494EA1 /* KFAACEncoder.h */,
+				DAE1E6941A7053E600494EA1 /* KFAACEncoder.m */,
+			);
+			path = AAC;
+			sourceTree = "<group>";
+		};
+		DAE1E69B1A7053E600494EA1 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E69C1A7053E600494EA1 /* H264 */,
+				DAE1E6A81A7053E600494EA1 /* KFVideoEncoder.h */,
+				DAE1E6A91A7053E600494EA1 /* KFVideoEncoder.m */,
+				DAE1E6AA1A7053E600494EA1 /* KFVideoFrame.h */,
+				DAE1E6AB1A7053E600494EA1 /* KFVideoFrame.m */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		DAE1E69C1A7053E600494EA1 /* H264 */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E69D1A7053E600494EA1 /* AVEncoder.h */,
+				DAE1E69E1A7053E600494EA1 /* AVEncoder.mm */,
+				DAE1E69F1A7053E600494EA1 /* KFH264Encoder.h */,
+				DAE1E6A01A7053E600494EA1 /* KFH264Encoder.mm */,
+				DAE1E6A11A7053E600494EA1 /* LICENSE.markdown */,
+				DAE1E6A21A7053E600494EA1 /* MP4Atom.h */,
+				DAE1E6A31A7053E600494EA1 /* MP4Atom.m */,
+				DAE1E6A41A7053E600494EA1 /* NALUnit.cpp */,
+				DAE1E6A51A7053E600494EA1 /* NALUnit.h */,
+				DAE1E6A61A7053E600494EA1 /* VideoEncoder.h */,
+				DAE1E6A71A7053E600494EA1 /* VideoEncoder.m */,
+			);
+			path = H264;
+			sourceTree = "<group>";
+		};
+		DAE1E6AC1A7053E600494EA1 /* Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E6AD1A7053E600494EA1 /* KFRecorder.h */,
+				DAE1E6AE1A7053E600494EA1 /* KFRecorder.m */,
+			);
+			path = Inputs;
+			sourceTree = "<group>";
+		};
+		DAE1E6B21A7053E600494EA1 /* Outputs */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E6B31A7053E600494EA1 /* Muxers */,
+			);
+			path = Outputs;
+			sourceTree = "<group>";
+		};
+		DAE1E6B31A7053E600494EA1 /* Muxers */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E6B41A7053E600494EA1 /* HLS */,
+			);
+			path = Muxers;
+			sourceTree = "<group>";
+		};
+		DAE1E6B41A7053E600494EA1 /* HLS */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E6B51A7053E600494EA1 /* KFDirectoryWatcher.h */,
+				DAE1E6B61A7053E600494EA1 /* KFDirectoryWatcher.m */,
+				DAE1E6B71A7053E600494EA1 /* KFHLSManifestGenerator.h */,
+				DAE1E6B81A7053E600494EA1 /* KFHLSManifestGenerator.m */,
+				DAE1E6B91A7053E600494EA1 /* KFHLSMonitor.h */,
+				DAE1E6BA1A7053E600494EA1 /* KFHLSMonitor.m */,
+				DAE1E6BB1A7053E600494EA1 /* KFHLSUploader.h */,
+				DAE1E6BC1A7053E600494EA1 /* KFHLSUploader.m */,
+				DAE1E6BD1A7053E600494EA1 /* KFHLSWriter.h */,
+				DAE1E6BE1A7053E600494EA1 /* KFHLSWriter.m */,
+			);
+			path = HLS;
+			sourceTree = "<group>";
+		};
+		DAE1E6BF1A7053E600494EA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E6C01A7053E600494EA1 /* KFCameraReverse@2x.png */,
+				DAE1E6C11A7053E600494EA1 /* KFCameraReversePressed@2x.png */,
+				DAE1E6C21A7053E600494EA1 /* KFDeviceRotation@2x.png */,
+				DAE1E6C31A7053E600494EA1 /* KFRecordButtonBorder@2x.png */,
+				DAE1E6C41A7053E600494EA1 /* KFRecordButtonStart@2x.png */,
+				DAE1E6C51A7053E600494EA1 /* KFRecordButtonStop@2x.png */,
+				DAE1E6C61A7053E600494EA1 /* KFStreamTableViewCellDots@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DAE1E6C71A7053E600494EA1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E6C81A7053E600494EA1 /* KFDateUtils.h */,
+				DAE1E6C91A7053E600494EA1 /* KFDateUtils.m */,
+				DAE1E6CA1A7053E600494EA1 /* KFLog.h */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DAE1E6CB1A7053E600494EA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E6CC1A7053E600494EA1 /* KFBroadcastViewController.h */,
+				DAE1E6CD1A7053E600494EA1 /* KFBroadcastViewController.m */,
+				DAE1E6CE1A7053E600494EA1 /* KFLiveBannerView.h */,
+				DAE1E6CF1A7053E600494EA1 /* KFLiveBannerView.m */,
+				DAE1E6D01A7053E600494EA1 /* KFRecordButton.h */,
+				DAE1E6D11A7053E600494EA1 /* KFRecordButton.m */,
+				DAE1E6D21A7053E600494EA1 /* KFStreamTableViewCell.h */,
+				DAE1E6D31A7053E600494EA1 /* KFStreamTableViewCell.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
