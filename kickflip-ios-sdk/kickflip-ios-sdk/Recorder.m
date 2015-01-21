@@ -86,7 +86,7 @@ static Recorder* theRecorder;
     if ([_session canAddOutput:_videoOutput]) {
         [_session addOutput:_videoOutput];
     }
-    _videoConnection = [_audioOutput connectionWithMediaType:AVMediaTypeVideo];
+    _videoConnection = [_videoOutput connectionWithMediaType:AVMediaTypeVideo];
 }
 
 - (void)setupAudioCapture
