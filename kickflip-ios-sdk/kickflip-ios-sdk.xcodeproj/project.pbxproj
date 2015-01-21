@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAE1E5BC1A704E1000494EA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE1E5BB1A704E1000494EA1 /* main.m */; };
+		DAE1E5BF1A704E1000494EA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE1E5BE1A704E1000494EA1 /* AppDelegate.m */; };
+		DAE1E5C21A704E1000494EA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE1E5C11A704E1000494EA1 /* ViewController.m */; };
+		DAE1E5C51A704E1000494EA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE1E5C31A704E1000494EA1 /* Main.storyboard */; };
+		DAE1E5C71A704E1000494EA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE1E5C61A704E1000494EA1 /* Images.xcassets */; };
+		DAE1E5CA1A704E1000494EA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE1E5C81A704E1000494EA1 /* LaunchScreen.xib */; };
+		DAE1E5D61A704E1000494EA1 /* kickflip_ios_sdkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE1E5D51A704E1000494EA1 /* kickflip_ios_sdkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAE1E5D01A704E1000494EA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAE1E5AE1A704E1000494EA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAE1E5B51A704E1000494EA1;
+			remoteInfo = "kickflip-ios-sdk";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAE1E5B61A704E1000494EA1 /* kickflip-ios-sdk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kickflip-ios-sdk.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE1E5BA1A704E1000494EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE1E5BB1A704E1000494EA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAE1E5BD1A704E1000494EA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAE1E5BE1A704E1000494EA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAE1E5C01A704E1000494EA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAE1E5C11A704E1000494EA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAE1E5C41A704E1000494EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAE1E5C61A704E1000494EA1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DAE1E5C91A704E1000494EA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DAE1E5CF1A704E1000494EA1 /* kickflip-ios-sdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "kickflip-ios-sdkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE1E5D41A704E1000494EA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE1E5D51A704E1000494EA1 /* kickflip_ios_sdkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kickflip_ios_sdkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAE1E5B31A704E1000494EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE1E5CC1A704E1000494EA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAE1E5AD1A704E1000494EA1 = {
+			isa = PBXGroup;
+			children = (
+				DAE1E5B81A704E1000494EA1 /* kickflip-ios-sdk */,
+				DAE1E5D21A704E1000494EA1 /* kickflip-ios-sdkTests */,
+				DAE1E5B71A704E1000494EA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAE1E5B71A704E1000494EA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E5B61A704E1000494EA1 /* kickflip-ios-sdk.app */,
+				DAE1E5CF1A704E1000494EA1 /* kickflip-ios-sdkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAE1E5B81A704E1000494EA1 /* kickflip-ios-sdk */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E5BD1A704E1000494EA1 /* AppDelegate.h */,
+				DAE1E5BE1A704E1000494EA1 /* AppDelegate.m */,
+				DAE1E5C01A704E1000494EA1 /* ViewController.h */,
+				DAE1E5C11A704E1000494EA1 /* ViewController.m */,
+				DAE1E5C31A704E1000494EA1 /* Main.storyboard */,
+				DAE1E5C61A704E1000494EA1 /* Images.xcassets */,
+				DAE1E5C81A704E1000494EA1 /* LaunchScreen.xib */,
+				DAE1E5B91A704E1000494EA1 /* Supporting Files */,
+			);
+			path = "kickflip-ios-sdk";
+			sourceTree = "<group>";
+		};
+		DAE1E5B91A704E1000494EA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E5BA1A704E1000494EA1 /* Info.plist */,
+				DAE1E5BB1A704E1000494EA1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAE1E5D21A704E1000494EA1 /* kickflip-ios-sdkTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E5D51A704E1000494EA1 /* kickflip_ios_sdkTests.m */,
+				DAE1E5D31A704E1000494EA1 /* Supporting Files */,
+			);
+			path = "kickflip-ios-sdkTests";
+			sourceTree = "<group>";
+		};
+		DAE1E5D31A704E1000494EA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E5D41A704E1000494EA1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAE1E5B51A704E1000494EA1 /* kickflip-ios-sdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE1E5D91A704E1000494EA1 /* Build configuration list for PBXNativeTarget "kickflip-ios-sdk" */;
+			buildPhases = (
+				DAE1E5B21A704E1000494EA1 /* Sources */,
+				DAE1E5B31A704E1000494EA1 /* Frameworks */,
+				DAE1E5B41A704E1000494EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kickflip-ios-sdk";
+			productName = "kickflip-ios-sdk";
+			productReference = DAE1E5B61A704E1000494EA1 /* kickflip-ios-sdk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAE1E5CE1A704E1000494EA1 /* kickflip-ios-sdkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE1E5DC1A704E1000494EA1 /* Build configuration list for PBXNativeTarget "kickflip-ios-sdkTests" */;
+			buildPhases = (
+				DAE1E5CB1A704E1000494EA1 /* Sources */,
+				DAE1E5CC1A704E1000494EA1 /* Frameworks */,
+				DAE1E5CD1A704E1000494EA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE1E5D11A704E1000494EA1 /* PBXTargetDependency */,
+			);
+			name = "kickflip-ios-sdkTests";
+			productName = "kickflip-ios-sdkTests";
+			productReference = DAE1E5CF1A704E1000494EA1 /* kickflip-ios-sdkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAE1E5AE1A704E1000494EA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Paul;
+				TargetAttributes = {
+					DAE1E5B51A704E1000494EA1 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DAE1E5CE1A704E1000494EA1 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DAE1E5B51A704E1000494EA1;
+					};
+				};
+			};
+			buildConfigurationList = DAE1E5B11A704E1000494EA1 /* Build configuration list for PBXProject "kickflip-ios-sdk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAE1E5AD1A704E1000494EA1;
+			productRefGroup = DAE1E5B71A704E1000494EA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAE1E5B51A704E1000494EA1 /* kickflip-ios-sdk */,
+				DAE1E5CE1A704E1000494EA1 /* kickflip-ios-sdkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAE1E5B41A704E1000494EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE1E5C51A704E1000494EA1 /* Main.storyboard in Resources */,
+				DAE1E5CA1A704E1000494EA1 /* LaunchScreen.xib in Resources */,
+				DAE1E5C71A704E1000494EA1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE1E5CD1A704E1000494EA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAE1E5B21A704E1000494EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE1E5C21A704E1000494EA1 /* ViewController.m in Sources */,
+				DAE1E5BF1A704E1000494EA1 /* AppDelegate.m in Sources */,
+				DAE1E5BC1A704E1000494EA1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE1E5CB1A704E1000494EA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE1E5D61A704E1000494EA1 /* kickflip_ios_sdkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAE1E5D11A704E1000494EA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAE1E5B51A704E1000494EA1 /* kickflip-ios-sdk */;
+			targetProxy = DAE1E5D01A704E1000494EA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAE1E5C31A704E1000494EA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE1E5C41A704E1000494EA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAE1E5C81A704E1000494EA1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE1E5C91A704E1000494EA1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAE1E5D71A704E1000494EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAE1E5D81A704E1000494EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAE1E5DA1A704E1000494EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "kickflip-ios-sdk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAE1E5DB1A704E1000494EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "kickflip-ios-sdk/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAE1E5DD1A704E1000494EA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "kickflip-ios-sdkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kickflip-ios-sdk.app/kickflip-ios-sdk";
+			};
+			name = Debug;
+		};
+		DAE1E5DE1A704E1000494EA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "kickflip-ios-sdkTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kickflip-ios-sdk.app/kickflip-ios-sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAE1E5B11A704E1000494EA1 /* Build configuration list for PBXProject "kickflip-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE1E5D71A704E1000494EA1 /* Debug */,
+				DAE1E5D81A704E1000494EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE1E5D91A704E1000494EA1 /* Build configuration list for PBXNativeTarget "kickflip-ios-sdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE1E5DA1A704E1000494EA1 /* Debug */,
+				DAE1E5DB1A704E1000494EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAE1E5DC1A704E1000494EA1 /* Build configuration list for PBXNativeTarget "kickflip-ios-sdkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE1E5DD1A704E1000494EA1 /* Debug */,
+				DAE1E5DE1A704E1000494EA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAE1E5AE1A704E1000494EA1 /* Project object */;
+}
