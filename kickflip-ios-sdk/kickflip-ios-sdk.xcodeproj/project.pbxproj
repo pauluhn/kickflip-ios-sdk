@@ -14,6 +14,7 @@
 		DAE1E5C71A704E1000494EA1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE1E5C61A704E1000494EA1 /* Images.xcassets */; };
 		DAE1E5CA1A704E1000494EA1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE1E5C81A704E1000494EA1 /* LaunchScreen.xib */; };
 		DAE1E5D61A704E1000494EA1 /* kickflip_ios_sdkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE1E5D51A704E1000494EA1 /* kickflip_ios_sdkTests.m */; };
+		DAE1E6D81A70553700494EA1 /* Recorder.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE1E6D71A70553700494EA1 /* Recorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,21 +61,6 @@
 		DAE1E6981A7053E600494EA1 /* KFEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFEncoder.m; sourceTree = "<group>"; };
 		DAE1E6991A7053E600494EA1 /* KFFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFFrame.h; sourceTree = "<group>"; };
 		DAE1E69A1A7053E600494EA1 /* KFFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFFrame.m; sourceTree = "<group>"; };
-		DAE1E69D1A7053E600494EA1 /* AVEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AVEncoder.h; sourceTree = "<group>"; };
-		DAE1E69E1A7053E600494EA1 /* AVEncoder.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AVEncoder.mm; sourceTree = "<group>"; };
-		DAE1E69F1A7053E600494EA1 /* KFH264Encoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFH264Encoder.h; sourceTree = "<group>"; };
-		DAE1E6A01A7053E600494EA1 /* KFH264Encoder.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = KFH264Encoder.mm; sourceTree = "<group>"; };
-		DAE1E6A11A7053E600494EA1 /* LICENSE.markdown */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.markdown; sourceTree = "<group>"; };
-		DAE1E6A21A7053E600494EA1 /* MP4Atom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MP4Atom.h; sourceTree = "<group>"; };
-		DAE1E6A31A7053E600494EA1 /* MP4Atom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MP4Atom.m; sourceTree = "<group>"; };
-		DAE1E6A41A7053E600494EA1 /* NALUnit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NALUnit.cpp; sourceTree = "<group>"; };
-		DAE1E6A51A7053E600494EA1 /* NALUnit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NALUnit.h; sourceTree = "<group>"; };
-		DAE1E6A61A7053E600494EA1 /* VideoEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoEncoder.h; sourceTree = "<group>"; };
-		DAE1E6A71A7053E600494EA1 /* VideoEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEncoder.m; sourceTree = "<group>"; };
-		DAE1E6A81A7053E600494EA1 /* KFVideoEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFVideoEncoder.h; sourceTree = "<group>"; };
-		DAE1E6A91A7053E600494EA1 /* KFVideoEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFVideoEncoder.m; sourceTree = "<group>"; };
-		DAE1E6AA1A7053E600494EA1 /* KFVideoFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFVideoFrame.h; sourceTree = "<group>"; };
-		DAE1E6AB1A7053E600494EA1 /* KFVideoFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFVideoFrame.m; sourceTree = "<group>"; };
 		DAE1E6AD1A7053E600494EA1 /* KFRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFRecorder.h; sourceTree = "<group>"; };
 		DAE1E6AE1A7053E600494EA1 /* KFRecorder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFRecorder.m; sourceTree = "<group>"; };
 		DAE1E6AF1A7053E600494EA1 /* Kickflip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Kickflip-Prefix.pch"; sourceTree = "<group>"; };
@@ -108,6 +94,18 @@
 		DAE1E6D11A7053E600494EA1 /* KFRecordButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFRecordButton.m; sourceTree = "<group>"; };
 		DAE1E6D21A7053E600494EA1 /* KFStreamTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFStreamTableViewCell.h; sourceTree = "<group>"; };
 		DAE1E6D31A7053E600494EA1 /* KFStreamTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFStreamTableViewCell.m; sourceTree = "<group>"; };
+		DAE1E6D61A70553700494EA1 /* Recorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Recorder.h; path = "kickflip-ios-sdk/Recorder.h"; sourceTree = SOURCE_ROOT; };
+		DAE1E6D71A70553700494EA1 /* Recorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Recorder.m; path = "kickflip-ios-sdk/Recorder.m"; sourceTree = SOURCE_ROOT; };
+		DAE1E6F61A705EF800494EA1 /* AVEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AVEncoder.h; path = "kickflip-ios-sdk/AVEncoder.h"; sourceTree = SOURCE_ROOT; };
+		DAE1E6F71A705EF800494EA1 /* AVEncoder.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AVEncoder.mm; path = "kickflip-ios-sdk/AVEncoder.mm"; sourceTree = SOURCE_ROOT; };
+		DAE1E6F81A705EF800494EA1 /* MP4Atom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MP4Atom.h; path = "kickflip-ios-sdk/MP4Atom.h"; sourceTree = SOURCE_ROOT; };
+		DAE1E6F91A705EF800494EA1 /* MP4Atom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MP4Atom.m; path = "kickflip-ios-sdk/MP4Atom.m"; sourceTree = SOURCE_ROOT; };
+		DAE1E6FA1A705EF800494EA1 /* NALUnit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NALUnit.cpp; path = "kickflip-ios-sdk/NALUnit.cpp"; sourceTree = SOURCE_ROOT; };
+		DAE1E6FB1A705EF800494EA1 /* NALUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NALUnit.h; path = "kickflip-ios-sdk/NALUnit.h"; sourceTree = SOURCE_ROOT; };
+		DAE1E6FC1A705EF800494EA1 /* VideoEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VideoEncoder.h; path = "kickflip-ios-sdk/VideoEncoder.h"; sourceTree = SOURCE_ROOT; };
+		DAE1E6FD1A705EF800494EA1 /* VideoEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VideoEncoder.m; path = "kickflip-ios-sdk/VideoEncoder.m"; sourceTree = SOURCE_ROOT; };
+		DAE1E7021A705F5100494EA1 /* CameraServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraServer.h; path = "kickflip-ios-sdk/CameraServer.h"; sourceTree = SOURCE_ROOT; };
+		DAE1E7031A705F5100494EA1 /* CameraServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraServer.m; path = "kickflip-ios-sdk/CameraServer.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,7 +231,6 @@
 				DAE1E6981A7053E600494EA1 /* KFEncoder.m */,
 				DAE1E6991A7053E600494EA1 /* KFFrame.h */,
 				DAE1E69A1A7053E600494EA1 /* KFFrame.m */,
-				DAE1E69B1A7053E600494EA1 /* Video */,
 			);
 			path = Codecs;
 			sourceTree = "<group>";
@@ -257,41 +254,16 @@
 			path = AAC;
 			sourceTree = "<group>";
 		};
-		DAE1E69B1A7053E600494EA1 /* Video */ = {
-			isa = PBXGroup;
-			children = (
-				DAE1E69C1A7053E600494EA1 /* H264 */,
-				DAE1E6A81A7053E600494EA1 /* KFVideoEncoder.h */,
-				DAE1E6A91A7053E600494EA1 /* KFVideoEncoder.m */,
-				DAE1E6AA1A7053E600494EA1 /* KFVideoFrame.h */,
-				DAE1E6AB1A7053E600494EA1 /* KFVideoFrame.m */,
-			);
-			path = Video;
-			sourceTree = "<group>";
-		};
-		DAE1E69C1A7053E600494EA1 /* H264 */ = {
-			isa = PBXGroup;
-			children = (
-				DAE1E69D1A7053E600494EA1 /* AVEncoder.h */,
-				DAE1E69E1A7053E600494EA1 /* AVEncoder.mm */,
-				DAE1E69F1A7053E600494EA1 /* KFH264Encoder.h */,
-				DAE1E6A01A7053E600494EA1 /* KFH264Encoder.mm */,
-				DAE1E6A11A7053E600494EA1 /* LICENSE.markdown */,
-				DAE1E6A21A7053E600494EA1 /* MP4Atom.h */,
-				DAE1E6A31A7053E600494EA1 /* MP4Atom.m */,
-				DAE1E6A41A7053E600494EA1 /* NALUnit.cpp */,
-				DAE1E6A51A7053E600494EA1 /* NALUnit.h */,
-				DAE1E6A61A7053E600494EA1 /* VideoEncoder.h */,
-				DAE1E6A71A7053E600494EA1 /* VideoEncoder.m */,
-			);
-			path = H264;
-			sourceTree = "<group>";
-		};
 		DAE1E6AC1A7053E600494EA1 /* Inputs */ = {
 			isa = PBXGroup;
 			children = (
 				DAE1E6AD1A7053E600494EA1 /* KFRecorder.h */,
 				DAE1E6AE1A7053E600494EA1 /* KFRecorder.m */,
+				DAE1E7021A705F5100494EA1 /* CameraServer.h */,
+				DAE1E7031A705F5100494EA1 /* CameraServer.m */,
+				DAE1E6D61A70553700494EA1 /* Recorder.h */,
+				DAE1E6D71A70553700494EA1 /* Recorder.m */,
+				DAE1E6F51A705E7200494EA1 /* AVEncoder */,
 			);
 			path = Inputs;
 			sourceTree = "<group>";
@@ -366,6 +338,21 @@
 				DAE1E6D31A7053E600494EA1 /* KFStreamTableViewCell.m */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		DAE1E6F51A705E7200494EA1 /* AVEncoder */ = {
+			isa = PBXGroup;
+			children = (
+				DAE1E6F61A705EF800494EA1 /* AVEncoder.h */,
+				DAE1E6F71A705EF800494EA1 /* AVEncoder.mm */,
+				DAE1E6F81A705EF800494EA1 /* MP4Atom.h */,
+				DAE1E6F91A705EF800494EA1 /* MP4Atom.m */,
+				DAE1E6FA1A705EF800494EA1 /* NALUnit.cpp */,
+				DAE1E6FB1A705EF800494EA1 /* NALUnit.h */,
+				DAE1E6FC1A705EF800494EA1 /* VideoEncoder.h */,
+				DAE1E6FD1A705EF800494EA1 /* VideoEncoder.m */,
+			);
+			name = AVEncoder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -471,6 +458,7 @@
 				DAE1E5C21A704E1000494EA1 /* ViewController.m in Sources */,
 				DAE1E5BF1A704E1000494EA1 /* AppDelegate.m in Sources */,
 				DAE1E5BC1A704E1000494EA1 /* main.m in Sources */,
+				DAE1E6D81A70553700494EA1 /* Recorder.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
