@@ -5,6 +5,7 @@
 //  Created by Geraint Davies on 14/01/2013.
 //  Copyright (c) 2013 GDCL http://www.gdcl.co.uk/license.htm
 //
+//  Modified by Paul Uhn on 1/21/2015
 
 #import "VideoEncoder.h"
 
@@ -33,7 +34,7 @@
                               [NSNumber numberWithInt: width], AVVideoWidthKey,
                               [NSNumber numberWithInt:height], AVVideoHeightKey,
                               [NSDictionary dictionaryWithObjectsAndKeys:
-                                    @YES, AVVideoAllowFrameReorderingKey, nil],
+                                    @NO, AVVideoAllowFrameReorderingKey, nil],
                                     AVVideoCompressionPropertiesKey,
                               nil];
     _writerInput = [AVAssetWriterInput assetWriterInputWithMediaType:AVMediaTypeVideo outputSettings:settings];
